@@ -150,7 +150,7 @@ export class EchoBot extends ActivityHandler {
         // Manipulador disparado quando novos membros entram na conversa (boas-vindas)
         this.onMembersAdded(async (context, next) => {
             const membersAdded = context.activity.membersAdded ?? [];
-            const welcomeText = 'Olá! Sou seu assistente rodando com Phi-4-reasoning no Azure. Digite /limpar para reiniciar a conversa.';
+            const welcomeText = 'Olá! Sou seu assistente rodando com Phi-4-mini-instruct no Azure. Digite /limpar para reiniciar a conversa.';
 
             for (const member of membersAdded) {
                 if (member.id !== context.activity.recipient.id) {
