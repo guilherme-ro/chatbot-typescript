@@ -161,7 +161,7 @@ MicrosoftAppTenantId=
 # Configurações do Azure AI Foundry
 AZURE_PHI_ENDPOINT=https://<seu-recurso>.services.ai.azure.com/openai/v1
 AZURE_PHI_API_KEY=sua_chave_de_api_aqui
-AZURE_PHI_MODEL=Phi-4-reasoning
+AZURE_PHI_MODEL=Phi-4-mini-instruct
 ```
 
 #### Descrição das Variáveis:
@@ -173,7 +173,7 @@ AZURE_PHI_MODEL=Phi-4-reasoning
 | `MicrosoftAppPassword` | Não | `""` | Segredo do aplicativo no Azure Bot Service (em branco para modo local). |
 | `AZURE_PHI_ENDPOINT` | **Sim** | - | Endpoint OpenAI-compatible do Azure AI Foundry (terminando em `/openai/v1`). |
 | `AZURE_PHI_API_KEY` | **Sim** | - | Chave de autenticação gerada no portal do Azure AI Foundry. |
-| `AZURE_PHI_MODEL` | Não | `Phi-4-reasoning` | Nome do modelo implantado (ex: `Phi-4-reasoning`, `Phi-4-mini-instruct`). |
+| `AZURE_PHI_MODEL` | Não | `Phi-4-mini-instruct` | Nome do modelo implantado (ex: `Phi-4-reasoning`, `Phi-4-mini-instruct`). |
 
 ---
 
