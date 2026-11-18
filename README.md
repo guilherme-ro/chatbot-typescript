@@ -37,7 +37,7 @@ flowchart TD
     end
     
     subgraph AzureAI ["Azure AI Foundry"]
-        Bot -->|OpenAI SDK Chat Completions| Phi["Modelo Phi-4 / Phi-4-reasoning\n(/openai/v1)"]
+        Bot -->|OpenAI SDK Chat Completions| Phi["Modelo Phi-4\n(/openai/v1)"]
         Phi -->|Resposta com tags &lt;think&gt;| Bot
     end
     
