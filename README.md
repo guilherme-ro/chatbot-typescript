@@ -1,6 +1,6 @@
 # 🤖 Chatbot Inteligente com Bot Framework SDK v4 e Azure AI Foundry (Phi-4)
 
-Este projeto implementa um chatbot inteligente e contextual para o ecossistema **Microsoft Bot Framework SDK v4**, desenvolvido com **Node.js (v24)** e **TypeScript**, utilizando **Express** como servidor HTTP e alimentado pelos modelos de linguagem da família **Phi-4** (com suporte nativo ao modelo de raciocínio `Phi-4-reasoning`) hospedados no **Azure AI Foundry**.
+Este projeto implementa um chatbot inteligente e contextual para o ecossistema **Microsoft Bot Framework SDK v4**, desenvolvido com **Node.js (v24)** e **TypeScript**, utilizando **Express** como servidor HTTP e alimentado pelos modelos de linguagem da família **Phi-4** (com suporte nativo ao modelo de raciocínio `Phi-4`) hospedados no **Azure AI Foundry**.
 
 ---
 
